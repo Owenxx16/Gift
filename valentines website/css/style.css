@@ -130,6 +130,9 @@ a {
     font-family: "Allura", serif;
     font-size: 7vh;
 }
+#fireworks {
+    pointer-events: none;
+}
 
 /* for mobile display */
 @media (min-width:200px) and (max-width:1025px) {

@@ -2,7 +2,6 @@ const yes = document.querySelector("#yes");
 const no = document.querySelector("#no");
 const gif = document.querySelector("#gif");
 const text = document.querySelector("#text");
-const vid = document.querySelector("video");
 let count = 2;
 
 const gifs = [
@@ -54,7 +53,6 @@ no.addEventListener("click", () => {
 
 // changes for when YES button is clicked
 yes.addEventListener("click", () => {
-  vid.style.display = "block";
   gif.src = "resources/idc.gif";
   text.innerHTML = "Anh biết mà, yêu em vãi ò 😘";
   yes.innerHTML = '<a href="https://www.facebook.com/minhtruong.nguyen.79462/">Message me</a>';// inside the " " put your social media profile link
